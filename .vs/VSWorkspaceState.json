@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\shopapp.business\\Abstract",
+    "\\shopapp.business\\Concrete",
+    "\\shopapp.webui\\Controllers",
+    "\\shopapp.webui\\Identity"
+  ],
+  "SelectedNode": "\\shopapp.business",
+  "PreviewInSolutionExplorer": false
+}
