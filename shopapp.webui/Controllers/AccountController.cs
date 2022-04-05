@@ -8,6 +8,9 @@ namespace shopapp.webui.Controllers
 {
     public class AccountController:Controller
     {
+        /// <summary>
+        /// test erhan
+        /// </summary>
         private UserManager<User> _userManager;
         private SignInManager<User> _signinManager;
         public AccountController( UserManager<User> userManager,SignInManager<User> signinManager)
