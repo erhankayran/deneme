@@ -33,8 +33,13 @@ namespace shopapp.webui.Controllers
             var user= await _userManager.FindByNameAsync(model.Username);
             if(user==null)
             {
-                ModelState.AddModelError("","Bu username ile hesap bulunamadı");
-                return View(model);
+                var a = 10;
+                if(a==10)
+                {
+                    ModelState.AddModelError("", "Bu username ile hesap bulunamadı");
+                    return View(model);
+                }
+               
             }
             var result=await _signinManager.PasswordSignInAsync(user,model.Password,false,false);
             if(result.Succeeded)
