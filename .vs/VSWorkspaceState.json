@@ -3,9 +3,11 @@
     "",
     "\\shopapp.business\\Abstract",
     "\\shopapp.business\\Concrete",
-    "\\shopapp.webui\\Controllers",
-    "\\shopapp.webui\\Identity"
+    "\\shopapp.data\\Concrete\\EfCore",
+    "\\shopapp.entity\\obj",
+    "\\shopapp.webui",
+    "\\shopapp.webui\\Controllers"
   ],
-  "SelectedNode": "\\shopapp.business",
+  "SelectedNode": "\\shopapp.webui\\Controllers\\AccountController.cs",
   "PreviewInSolutionExplorer": false
 }
