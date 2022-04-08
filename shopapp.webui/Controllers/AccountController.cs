@@ -11,6 +11,7 @@ namespace shopapp.webui.Controllers
         /// <summary>
         /// test erhan
         /// </summary>
+        /// test 
         private UserManager<User> _userManager;
         private SignInManager<User> _signinManager;
         public AccountController( UserManager<User> userManager,SignInManager<User> signinManager)
