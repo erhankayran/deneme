@@ -33,6 +33,11 @@ namespace shopapp.webui.Controllers
             if(user==null)
             {
                 ModelState.AddModelError("","Bu username ile hesap bulunamadı");
+                var x = 10;
+                if(x<10)
+                {
+                    bool x = true;
+                }
                 return View(model);
             }
             var result=await _signinManager.PasswordSignInAsync(user,model.Password,false,false);
