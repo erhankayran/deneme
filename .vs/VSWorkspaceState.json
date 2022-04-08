@@ -1,13 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\shopapp.business\\Abstract",
-    "\\shopapp.business\\Concrete",
-    "\\shopapp.data\\Concrete\\EfCore",
-    "\\shopapp.entity\\obj",
     "\\shopapp.webui",
     "\\shopapp.webui\\Controllers"
   ],
-  "SelectedNode": "\\shopapp.webui\\Controllers\\AccountController.cs",
   "PreviewInSolutionExplorer": false
 }
